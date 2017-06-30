@@ -26,6 +26,7 @@ class Game {
           reader.close();
         }
       } else {
+        console.log('hrah');
         that.promptMove(completionCallback);
       }
     });
